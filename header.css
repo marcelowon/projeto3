@@ -2,6 +2,7 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 24px;
     height: 24px;
     display: inline-block;
