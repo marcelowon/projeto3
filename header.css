@@ -2,7 +2,7 @@
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url("Menu.svg");
+    background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -33,16 +33,17 @@
 
 .container__botao:checked ~ .lista-menu {
     display: block;
-    display: none;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
 }
 
 .lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
-  }
-.lista-menu__item {
-    padding: 1em;
-    background-color: var(--branco);
 }
 
 .lista-menu__link {
@@ -53,14 +54,6 @@
     text-transform: uppercase;
 }
 
-<section class="banner">
-  <h2 class="banner__titulo">Já sabe por onde começar?</h2>
-  <p class="banner__texto">
-    Encontre em nossa estante o que precisa para seu desenvolvimento!
-  </p>
-  <input
-    type="search"
-    class="banner__pesquisa"
-    placeholder="Qual será sua próxima leitura?"
-  />
-</section>
+.container__botao {
+    display: none;
+}
