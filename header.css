@@ -22,6 +22,7 @@
 }
 .lista-menu__titulo,
 .lista-menu__item {
+  color: var(--laranja);
   padding: 1em;
   background-color: var(--branco);
 }
