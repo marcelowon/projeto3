@@ -5,7 +5,7 @@
     --laranja: #eb9b00;
     --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
   }
-  
+
 body {
     background-color: var(--cor-de-fundo);
 }
@@ -13,3 +13,4 @@ body {
 h1 {
     background-color: white;
 }
+border-radius: 0 0 20px 20px;
